@@ -36,6 +36,23 @@ def create_dataframe_section(df):
     return None
 
 
+def create_answers_section(df):
+    st.title("Main Questions Answers")
+
+    st.header("First Round")
+    st.subheader("How many bikes are being sold by their owners and how many bikes are being sold by distributors?")
+    st.subheader("How many bikes are being sold are bikes from a unique owner?")
+    st.subheader("Are high kilometer bikes more expensive than bikes with lower kilometer?")
+    st.subheader("Are the bikes with a unique owner more expense on average than the other bikes?")
+    st.subheader("Are the bikes that have more owners also the bikes with more kilometers traveled on average?")
+    st.subheader("Which company has the most bikes registered?")
+    st.subheader("Which company has the most expensive bikes on average?")
+    st.subheader("Are the company that has the most expensive bikes registered also the company with the most bikes registered?")
+    st.subheader("Which bikes are good for buying?")
+
+    return None
+
+
 st.set_page_config(layout='wide')
 
 def main():
